@@ -1,0 +1,144 @@
+body {
+    background-color: #ebf6fe;
+    color : rgba(0, 0, 0, 0.9); 
+    font-family: 'Roboto', sans-serif;
+}
+/* #mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.instructions>ul{
+    width: 45%;
+    line-height:35px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Roboto Mono', monospace;
+    list-style:circle;
+    text-align: justify;
+}
+.instructions>ul>li:first-child{
+    list-style:none;
+    color: black;
+}
+header {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+figure>img {
+    width: 15rem;
+}
+
+.addButton:hover{
+    background-color: #5055edea;
+    box-shadow: 3px 1px 2px rgba(0, 0, 0, 0.875);
+}
+
+.addButton {
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50px;
+    font-size: xx-large;
+    background-color: #5056ED;
+    border: none;
+    color: white;
+    position: fixed;
+    left: 85%;
+    top: 80%;
+}
+
+.taskSave {
+    width: 6rem;
+    height: 40px;
+    background-color: purple;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: medium;
+}
+
+.taskInputForm {
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 10rem;
+}
+
+.taskDiv {
+    width: 30rem;
+    padding: 15px;
+    border-radius: 20px;
+    display: none;
+}
+.timeDisplay {
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid rgb(173, 173, 173);
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 5px 10px;
+    width: 8rem;
+    color: #5056ED;
+    font-weight: bold;
+}
+.startButton {
+    cursor: pointer;
+    font-size: 17px;
+    color: white;
+    background-color: #5056ED;
+    height: 40px;
+    width: 7rem;
+    border-radius: 20px;
+    border: none;
+}
+.closeButton {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(184, 184, 184);
+    font-weight: bold;
+
+}
+.card1Row1 {
+    width: 50rem;
+    display: grid;
+    grid-template-columns: 50% 18% 13% 10%;
+    justify-content: space-between;
+    align-items: center;
+    /* font-family: 'DM Sans', sans-serif; */
+}
+.contentCard {
+    width: 50rem;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    margin-top: 15px;
+}
+p{
+    color: rgba(0, 0, 0, 0.8);
+}
+dialog::backdrop {
+    background-color: - rgba(0, 0, 0, 0.9);
+    opacity: 0.75;
+}
+
+dialog {
+    border: none !important;
+    border-radius: 25px;
+}
+#listOfCards{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+

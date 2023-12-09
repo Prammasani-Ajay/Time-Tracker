@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600&display=swap" rel="stylesheet">
+    <title>Time_Tracker</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section id="mainContainer">
+        <header>
+            <figure>
+                <img src="./Assets/logo.png" alt="#logo">
+            </figure>
+            <span>Total Time Spent : <b>0 m</b></span>
+        </header>
+        <section class="instructions">
+            <ul>
+                <li><h2>Instructions :</h2></li>
+                <li>Hello !! , I'm "Time Tracker".</li>
+                <li>Following steps will help you how to work with me.</li>
+                <li>Click on ADD Icon (Bottom Right Corner).</li>
+                <li>Add your Task name, On which you are going to workout.</li>
+                <li><b>Note:</b> Enter a valid name & Dont Duplicate the Names(Should be Unique).</li>
+                <li>Users can start and stop timers for their tasks.</li>
+                <li>This will allow Users to track the time spent on each task accurately.</li>
+                <li>User able to Add new tasks to tracker & Delete tasks that are no longer relevant.</li>
+                <li>Records the user's activity history, capturing details such as start time, stop time, and duration for each task.</li>
+                <li>Let's Start...</li>
+            </ul>
+        </section>
+        <section id="listOfCards">
+        </section>
+        <dialog>
+            <div class="taskDiv">
+                <form class="taskInputForm">
+                    <label>Enter the task name</label>
+                    <input type="text" style="width:21rem;height:25px" id="inputTaskName" required>
+                    <input type="submit" value="Save" class="taskSave">
+                </form>
+            </div>
+        </dialog>
+        
+    </section>
+    <button class="addButton">+</button>
+    <script src="./script.js"></script>
+</body>
+</html>
